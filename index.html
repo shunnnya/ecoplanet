@@ -220,9 +220,9 @@
         <h1 class="form__title">Задать вопрос</h1>
         <h2 class="form__subtitle">Вы можете задать любой интересующий вас вопрос по теме экологии и мы с радостью поможем вам, ведь знание – это сила 😊</h2>
         <form class="question-form">
-            <input type="text" class="name" placeholder="Ваше имя" required>
+           <input type="text" class="name" placeholder="Ваше имя" required minlength="2">
             <input type="email" class="email" placeholder="Контактный адрес электронной почты" required>
-            <textarea class="question-body" required placeholder="Ваш вопрос"></textarea>
+            <textarea class="question-body" required placeholder="Ваш вопрос" minlength="10"></textarea>
                 <button class="form__btn">Отправить</button>
         </form>
     </div>
